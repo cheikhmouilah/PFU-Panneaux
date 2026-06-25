@@ -1,6 +1,6 @@
 # GeoSignal - Plateforme SIG de Gestion des Panneaux de Signalisation
 
-Plateforme intelligente de gestion, contrôle et maintenance des panneaux de signalisation pour la ville de Sidi Bel Abbès, Algérie.
+Plateforme intelligente de gestion, contrôle et maintenance des panneaux de signalisation pour la ville de Aïn Témouchent, Algérie.
 
 ## 🎯 Objectifs
 
@@ -133,9 +133,8 @@ Les admins peuvent modifier les rôles directement dans la base de données Supa
 
 ## 🌍 Données Géographiques
 
-- Centre : Sidi Bel Abbès (35.1875246°N, -0.6400233°E)
+- Centre : Aïn Témouchent (35.28954°N, -1.14099°E)
 - Projection : EPSG:4326 (WGS 84)
-- 15 panneaux d'exemple répartis dans la ville
 
 ## 🎨 Interface
 
@@ -187,7 +186,7 @@ src/
 
 ## 📝 License
 
-Projet académique - Ville de Sidi Bel Abbès
+Projet académique - Ville de Aïn Témouchent
 
 ## 🤝 Contribution
 

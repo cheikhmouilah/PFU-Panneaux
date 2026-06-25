@@ -2,7 +2,7 @@
 
 ## 📍 Panneaux Pré-installés
 
-La base de données contient **15 panneaux** répartis dans Sidi Bel Abbès :
+La base de données contient **15 panneaux** répartis dans Aïn Témouchent :
 
 ### Panneaux de Type A (Danger)
 
@@ -52,7 +52,7 @@ La base de données contient **15 panneaux** répartis dans Sidi Bel Abbès :
 
 Les panneaux sont répartis dans un rayon de ~2km autour du centre-ville :
 
-- **Centre** : 35.1875246°N, -0.6400233°E
+- **Centre** : 35.28954°N, -1.14099°E
 - **Zone couverte** : ~12 km²
 - **Densité** : 1.25 panneaux/km²
 
@@ -114,11 +114,11 @@ Via l'interface web :
 
 ## 🌍 Coordonnées GPS de Référence
 
-### Points d'Intérêt à Sidi Bel Abbès
+### Points d'Intérêt à Aïn Témouchent
 
 ```javascript
 const landmarks = {
-  centreVille: { lat: 35.1875246, lng: -0.6400233 },
+  centreVille: { lat: 35.28954, lng: -1.14099 },
   gare: { lat: 35.1950123, lng: -0.6350456 },
   universite: { lat: 35.1800567, lng: -0.6480234 },
   hopital: { lat: 35.1920789, lng: -0.6420345 },
@@ -131,8 +131,8 @@ const landmarks = {
 ```javascript
 // JavaScript pour générer des panneaux aléatoires
 function generateRandomPanel() {
-  const centerLat = 35.1875246;
-  const centerLng = -0.6400233;
+  const centerLat = 35.28954;
+  const centerLng = -1.14099;
   const radius = 0.02; // ~2km
 
   const lat = centerLat + (Math.random() - 0.5) * radius;
@@ -206,8 +206,8 @@ from datetime import datetime, timedelta
 
 def generate_panels(count=50):
     """Générer des panneaux de test"""
-    center_lat = 35.1875246
-    center_lng = -0.6400233
+    center_lat = 35.28954
+    center_lng = -1.14099
     categories = ['A', 'B', 'C', 'D']
     statuses = ['fonctionnel', 'en_maintenance', 'hors_service']
 

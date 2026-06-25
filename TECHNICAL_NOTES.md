@@ -25,7 +25,7 @@ Exemple de requête spatiale :
 SELECT * FROM panels
 WHERE ST_DWithin(
   location::geography,
-  ST_SetSRID(ST_MakePoint(-0.6400233, 35.1875246), 4326)::geography,
+  ST_SetSRID(ST_MakePoint(-1.14099, 35.28954), 4326)::geography,
   1000
 );
 ```
@@ -124,7 +124,7 @@ const map = new Map({
     }),
   ],
   view: new View({
-    center: fromLonLat([0.6400233, 35.1875246]), // Sidi Bel Abbès
+    center: fromLonLat([0.6400233, 35.28954]), // Aïn Témouchent
     zoom: 13,
   }),
 });
@@ -387,4 +387,4 @@ jobs:
 
 ---
 
-**Développé avec ❤️ pour Sidi Bel Abbès**
+**Développé avec ❤️ pour Aïn Témouchent**

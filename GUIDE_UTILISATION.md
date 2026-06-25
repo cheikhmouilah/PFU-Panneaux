@@ -4,7 +4,7 @@
 
 ### 1. Première Connexion
 
-La plateforme dispose déjà de 15 panneaux d'exemple positionnés à Sidi Bel Abbès.
+La plateforme dispose déjà de 15 panneaux d'exemple positionnés à Aïn Témouchent.
 
 **Pour vous connecter :**
 
@@ -27,7 +27,7 @@ L'interface comporte 5 sections principales :
 
 #### 🗺️ Carte SIG
 - Visualisation interactive des panneaux
-- Carte OpenStreetMap de Sidi Bel Abbès
+- Carte OpenStreetMap de Aïn Témouchent
 - Cliquez sur un panneau pour voir ses détails
 - Utilisez les filtres pour :
   - État (Fonctionnel, En maintenance, Hors service)

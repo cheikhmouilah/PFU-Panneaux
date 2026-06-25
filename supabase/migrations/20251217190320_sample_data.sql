@@ -2,20 +2,20 @@
   # Données d'exemple pour la plateforme GeoSignal
   
   1. Données insérées
-     - Panneaux de signalisation à Sidi Bel Abbès
+     - Panneaux de signalisation à Aïn Témouchent
        - 15 panneaux variés (intelligents et standards)
        - Répartis dans différentes zones de la ville
        - États variés (fonctionnel, en maintenance, hors service)
      
   2. Notes importantes
-     - Les panneaux sont positionnés autour de Sidi Bel Abbès
+     - Les panneaux sont positionnés autour de Aïn Témouchent
      - Coordonnées GPS réelles de la région
      - Diversité des types et catégories
 */
 
--- Insert sample panels for Sidi Bel Abbès
+-- Insert sample panels for Aïn Témouchent
 INSERT INTO panels (code, category, location, address, status, is_intelligent, installation_date) VALUES
-  ('A1', 'A', ST_SetSRID(ST_MakePoint(-0.6400233, 35.1875246), 4326), 'Avenue de la République', 'fonctionnel', true, '2023-01-15'),
+  ('A1', 'A', ST_SetSRID(ST_MakePoint(-1.14099, 35.28954), 4326), 'Avenue de la République', 'fonctionnel', true, '2023-01-15'),
   ('A14', 'A', ST_SetSRID(ST_MakePoint(-0.6380445, 35.1892341), 4326), 'Boulevard Mohamed V', 'fonctionnel', true, '2023-02-20'),
   ('B1', 'B', ST_SetSRID(ST_MakePoint(-0.6420156, 35.1858123), 4326), 'Rue Larbi Ben M''hidi', 'en_maintenance', false, '2023-03-10'),
   ('B7', 'B', ST_SetSRID(ST_MakePoint(-0.6395678, 35.1905467), 4326), 'Avenue Colonel Lotfi', 'fonctionnel', true, '2023-04-05'),

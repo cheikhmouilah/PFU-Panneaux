@@ -40,7 +40,7 @@ export default function Layout({ children, currentView, onViewChange }: LayoutPr
                 </div>
                 <div>
                   <h1 className="text-xl font-bold text-gray-900">GeoSignal</h1>
-                  <p className="text-xs text-gray-500">Sidi Bel Abbès</p>
+                  <p className="text-xs text-gray-500">Aïn Témouchent</p>
                 </div>
               </div>
 

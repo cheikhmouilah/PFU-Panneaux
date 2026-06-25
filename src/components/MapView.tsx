@@ -39,7 +39,7 @@ export default function MapView() {
         }),
       ],
       view: new View({
-        center: fromLonLat([-0.6400233, 35.1875246]), // Sidi Bel Abbès
+        center: fromLonLat([-1.14099, 35.28954]), // Aïn Témouchent
         zoom: 13,
       }),
     });

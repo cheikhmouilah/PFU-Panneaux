@@ -339,14 +339,14 @@ function MapSelectorModal({ initialLat, initialLon, onClose, onSelect }: MapSele
               e.preventDefault();
               e.stopPropagation();
               if (mapInstanceRef.current) {
-                mapInstanceRef.current.getView().setCenter(fromLonLat([-0.6400233, 35.1875246]));
+                mapInstanceRef.current.getView().setCenter(fromLonLat([-1.14099, 35.28954]));
                 mapInstanceRef.current.getView().setZoom(14);
               }
             }}
             className="absolute top-4 right-4 z-10 bg-white p-2 rounded-lg shadow-md border border-gray-200 hover:bg-gray-50 text-blue-600 font-medium text-xs flex items-center"
           >
             <MapPin className="w-4 h-4 mr-1" />
-            Sidi Bel Abbès
+            Aïn Témouchent
           </button>
         </div>
 
@@ -389,8 +389,8 @@ function PanelModal({ panel, onClose, onSave }: PanelModalProps) {
   const [formData, setFormData] = useState({
     code: panel?.code || '',
     category: panel?.category || 'A' as PanelCategory,
-    latitude: panel?.location.coordinates[1].toString() || '35.1875246',
-    longitude: panel?.location.coordinates[0].toString() || '-0.6400233',
+    latitude: panel?.location.coordinates[1].toString() || '35.28954',
+    longitude: panel?.location.coordinates[0].toString() || '-1.14099',
     address: panel?.address || '',
     status: panel?.status || 'fonctionnel' as PanelStatus,
     is_intelligent: panel?.is_intelligent || false,
@@ -643,8 +643,8 @@ function PanelModal({ panel, onClose, onSave }: PanelModalProps) {
 
       {showMapSelector && (
         <MapSelectorModal
-          initialLat={parseFloat(formData.latitude.replace(',', '.')) || 35.1875246}
-          initialLon={parseFloat(formData.longitude.replace(',', '.')) || -0.6400233}
+          initialLat={parseFloat(formData.latitude.replace(',', '.')) || 35.28954}
+          initialLon={parseFloat(formData.longitude.replace(',', '.')) || -1.14099}
           onClose={() => setShowMapSelector(false)}
           onSelect={(lat, lon) => {
             setFormData({

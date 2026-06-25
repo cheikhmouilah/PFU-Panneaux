@@ -38,7 +38,7 @@ export default function Auth() {
           </div>
           <div>
             <h1 className="text-2xl font-bold text-gray-900">GeoSignal</h1>
-            <p className="text-sm text-gray-600">Sidi Bel Abbès</p>
+            <p className="text-sm text-gray-600">Ain Témouchent</p>
           </div>
         </div>
 
@@ -112,6 +112,16 @@ export default function Auth() {
         >
           {isSignUp ? 'Déjà un compte ? Se connecter' : "Pas de compte ? S'inscrire"}
         </button>
+
+        <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+          <h3 className="text-sm font-semibold text-blue-900 mb-2">Accès de démonstration</h3>
+          <p className="text-sm text-blue-700">
+            <span className="font-medium">Email:</span> admin@admin.com
+          </p>
+          <p className="text-sm text-blue-700">
+            <span className="font-medium">Mot de passe:</span> admin
+          </p>
+        </div>
       </div>
     </div>
   );
